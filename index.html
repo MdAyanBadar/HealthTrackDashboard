@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthTrack Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="dashboard">=
+    <aside class="sidebar">
+      <h2>HealthTrack</h2>
+      <nav>
+        <a href="#"><i class="fa fa-chart-line"></i> Overview</a>
+        <a href="#"><i class="fa fa-calendar-check"></i> Appointments</a>
+        <a href="#"><i class="fa fa-pills"></i> Prescriptions</a>
+        <a href="#"><i class="fa fa-file-medical"></i> Reports</a>
+        <a href="#"><i class="fa fa-cog"></i> Settings</a>
+      </nav>
+    </aside>
+
+    <div class="main">
+      <header class="header">
+        <div class="profile">
+          <img src="https://via.placeholder.com/40" alt="Patient" />
+          <span>John Doe</span>
+        </div>
+        <i class="fa fa-bell notifications"></i>
+      </header>
+
+      <section class="cards">
+        <div class="card heart">
+          <i class="fa fa-heartbeat"></i>
+          <p>Heart Rate</p>
+          <h3>72 bpm</h3>
+        </div>
+        <div class="card pressure">
+          <i class="fa fa-tachometer-alt"></i>
+          <p>Blood Pressure</p>
+          <h3>120/80 mmHg</h3>
+        </div>
+        <div class="card oxygen">
+          <i class="fa fa-lungs"></i>
+          <p>Oxygen Level</p>
+          <h3>98%</h3>
+        </div>
+        <div class="card bmi">
+          <i class="fa fa-weight"></i>
+          <p>BMI</p>
+          <h3>22.5</h3>
+        </div>
+      </section>
+
+      <section class="appointments">
+        <h2>Appointments</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Doctor</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>20 July 2025</td>
+              <td>10:00 AM</td>
+              <td>Dr. Smith</td>
+              <td>Upcoming</td>
+            </tr>
+            <tr>
+              <td>15 July 2025</td>
+              <td>02:00 PM</td>
+              <td>Dr. Emma</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+
+      <section class="prescriptions">
+        <h2>Prescriptions</h2>
+        <ul>
+          <li><strong>Paracetamol 500mg</strong> - 2x daily (Dr. Smith, 5 days)</li>
+          <li><strong>Vitamin D</strong> - 1x daily (Dr. Emma, 10 days)</li>
+        </ul>
+      </section>
+
+      <section class="profile-info">
+        <h2>Patient Profile</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Age:</strong> 35</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Email:</strong> john@example.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Doctor Assigned:</strong> Dr. Smith</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
